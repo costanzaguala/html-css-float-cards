@@ -39,15 +39,21 @@ header{
 }
 
 /* MAIN */
-
+/*
 .card-container > .card:nth-child(3n + 2){
     margin-left: 10px;
     margin-right: 10px;
+}*/
+.mid-card{
+    margin-left: 15px;
+    margin-right: 15px;
+
 }
+
 
 .card-container > .card {
     float:left;
-    width: calc((100%-20px)/3);
+    width: calc((100% - 30px)/3);
     background-color: #100E17;
     margin-bottom: 20px;
 }
@@ -56,32 +62,36 @@ header{
     float: left;
 }
 
-.card-container > .card > .card-img-conrtainer {
-    width: 100%;
-    height: 100%;
+.card-img-container {
+    width: 100px;
 }
 
-.card-container > .card > .card-img-conrtainer > img {
+.card-img-container > img {
     width: 100%;
     display: block;
 }
 
-.card-container > .card > .card-info-container > h3 {
-    color: white;
-    padding-bottom: 5px;
+.card-info-container{
+    padding-top: 10px;
     padding-left: 20px;
 }
 
-.card-container > .card > .card-info-container > h4 {
+.card-info-container > h3 {
+    color: white;
+    padding-bottom: 5px;
+
+}
+
+.card-info-container > h4 {
     color: white;
     font-weight: 100;
     padding-bottom: 5px;
-    padding-left: 20px;
+
 }
 
-.card-container > .card > .card-info-container > .mail {
+.card-info-container > .mail {
     color: #52B7C5;
     font-weight: 100;
     padding-bottom: 5px;
-    padding-left: 20px;
+
 }
