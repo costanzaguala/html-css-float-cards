@@ -1,0 +1,15 @@
+/* RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+
+}
+
+/* GENERAL */
+
+.pink-color{
+    color: #E53471;
+}
